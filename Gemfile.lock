@@ -81,6 +81,8 @@ GEM
     date (3.3.4)
     diff-lcs (1.5.1)
     erubi (1.13.0)
+    faker (3.4.2)
+      i18n (>= 1.8.11, < 2)
     ffi (1.17.0-aarch64-linux-gnu)
     ffi (1.17.0-aarch64-linux-musl)
     ffi (1.17.0-arm-linux-gnu)
@@ -293,6 +295,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)
+  faker
   jbuilder (~> 2.7)
   kaminari
   listen (~> 3.3)
